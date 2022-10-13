@@ -18,7 +18,7 @@ function CollapsibleExample() {
             <Nav.Link>
               <Link to='/students'>Estudiantes</Link>
             </Nav.Link>
-            <Nav.Link>Picadas</Nav.Link>
+            <Nav.Link>Escuela</Nav.Link>
             <Nav.Link>Contacto</Nav.Link>
             
           </Nav>
