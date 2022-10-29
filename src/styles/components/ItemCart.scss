@@ -1,9 +1,9 @@
 @import '../variables';
 
-.content {
+.content1 {
     display: flex;
     flex-wrap: wrap;
-    height: 350px;
+    height: 480px;
     width: 300px;
 
     &:hover {
@@ -21,7 +21,7 @@
         margin: 15px;
         padding: 15px;
 
-        .imgMain {
+        img {
             border-radius: 8px;
             background: linear-gradient(225deg, #cacaca, #f0f0f0);
             box-shadow: -20px 20px 60px #bebebe,
@@ -33,11 +33,19 @@
 
         h1 {
             font-size: 23px;
+            text-align: center;
         }
 
         a {
             color: black !important;
 
+        }
+
+        button {
+            background-color: $amarillo;
+            border-radius: 8px;
+            height: 30px;
+            width: 100px;
         }
     }
 }
